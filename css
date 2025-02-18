@@ -1,0 +1,500 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+    scroll-behavior: smooth;
+}
+
+/* Header & Navigation */
+/* Header Styles */
+header {
+    background: #333;
+    color: white;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional shadow for better separation */
+}
+
+/* Heading (h1) Styles */
+header h1 {
+    margin: 0;
+    padding-bottom:1%;
+   
+}
+
+/* Navigation Styles */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+/* Inline Menu Items */
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+/* Link Styles */
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Offset for Fixed Header */
+body {
+    padding-top: 80px; /* Adjust based on the header's height */
+}
+
+
+/* Sections */
+section {
+    padding: 50px 20px;
+    background: white;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+}
+
+/* Profile Image */
+/* About Me Section Styles */
+#about {
+    padding: 50px 20px;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+#about h2 {
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* About Container */
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.profile-image img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.profile-image img:hover {
+    transform: scale(1.1);
+}
+
+.profile-details {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.profile-details h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.profile-details p {
+    color: #555;
+    line-height: 1.6;
+}
+
+.background-story {
+    margin-top: 15px;
+    font-style: italic;
+}
+
+
+/* Skills List */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: #ddd;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+
+
+
+
+/* Blog Section Styles */
+.blogs {
+    padding: 50px 20px;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+.blogs h2 {
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Blog Container */
+.blog-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Blog Box Styles */
+/* Hover Animation for Blog Box */
+.blog-box {
+    background: rgb(218, 211, 211);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 300px;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.blog-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Optional: Title Color Change on Hover */
+.blog-box h3 {
+    color: #333;
+    margin-bottom: 10px;
+    transition: color 0.3s ease;
+}
+
+.blog-box:hover h3 {
+    color: #007bff;
+}
+
+
+
+/* Testimonial Carousel Styles */
+#testimonials {
+    padding: 50px 20px;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+.carousel {
+    position: relative;
+    overflow: hidden;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.carousel-item {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    position: absolute;
+    width: 100%;
+}
+
+.carousel-item.active {
+    opacity: 1;
+    position: relative;
+}
+
+.carousel-item p {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.carousel-item h4 {
+    color: #555;
+    font-style: italic;
+}
+
+
+
+/* Contact Section Styles */
+#contact {
+    padding: 50px 20px;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+#contact h2 {
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Grid Layout */
+.contact-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+/* Contact Info Box */
+.contact-info {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contact-info h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.contact-info p, 
+.contact-info ul {
+    color: #555;
+}
+
+.contact-info ul {
+    padding: 0;
+    list-style: none;
+}
+
+.contact-info ul li {
+    margin: 5px 0;
+}
+
+.contact-info ul li a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact-info ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Contact Form Styles */
+.contact-form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contact-form h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.contact-form button:hover {
+    background: #0056b3;
+}
+
+
+
+
+/* Experience Section Styles */
+#experience {
+    padding: 50px 20px;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+#experience h2 {
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Progress Bar Container */
+.experience-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.experience-bar {
+    margin-bottom: 20px;
+}
+
+.experience-bar h3 {
+    color: #555;
+    margin-bottom: 5px;
+}
+
+/* Progress Bar Styles */
+.progress {
+    background: #ddd;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 30px;
+}
+
+.progress-fill {
+    height: 100%;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    border-radius: 20px;
+    width: 0%; /* Start at 0% for animation */
+    transition: width 2s ease;
+}
+
+/* Individual Colors */
+.html-fill {
+    background: #e44d26;
+}
+
+.css-fill {
+    background: #264de4;
+}
+
+.js-fill {
+    background: #f0db4f;
+    color: #333;
+}
+
+/* Skills Section Styles */
+#skills {
+    padding: 50px 20px;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+#skills h2 {
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Skills Grid */
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Skill Box Styles */
+.skill-box {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.skill-box h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.skill-box p {
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Hover Animation */
+.skill-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+
+/* Projects Section Styles */
+#projects {
+    padding: 50px 20px;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+#projects h2 {
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Projects Grid */
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Project Box Styles */
+.project-box {
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-box img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+/* Hover Animation */
+.project-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.project-box:hover img {
+    transform: scale(1.1);
+}
