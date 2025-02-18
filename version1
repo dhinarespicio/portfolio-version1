@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dina Respicio - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation Menu -->
+    <header>
+        <h1>Dina Respicio</h1>
+        <nav>
+            <ul>
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About Me</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#blogs" class="nav-link">Blogs</a></li>
+                <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h2>Welcome to My Portfolio</h2>
+        <p>Hi, I'm Dina Respicio, as a student taking a bachelor of science in information technology</p>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-container">
+            <!-- Profile Image -->
+            <div class="profile-image">
+                <img src="./imgs/kupalka.jpg" alt="Your Name">
+            </div>
+    
+            <!-- Profile Details -->
+            <div class="profile-details">
+                <h3>Your Name: Dhina Respicio</h3>
+                <p><strong>Age:</strong> 21</p>
+                <p><strong>Address:</strong> Nangalinan, Baggao, Cagayan</p>
+                <p><strong>Phone number:</strong>09723766437</p>
+                <p><strong>Email:</strong>respiciodhina@Gmail.com</p>
+                <p class="background-story">
+                    I am a passionate IT student with a love for technology and problem-solving.
+                    Balancing academics and personal growth, I strive to make a positive impact 
+                    through my skills and creativity.
+                </p>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <!-- Skill Box 1 -->
+            <div class="skill-box">
+                <h3>Web Development</h3>
+                <p>HTML, CSS, JavaScript,</p>
+            </div>
+    
+            <!-- Skill Box 2 -->
+            <div class="skill-box">
+                <h3>Programming Languages</h3>
+                <p>Java, + PHP</p>
+            </div>
+    
+            <!-- Skill Box 3 -->
+            <div class="skill-box">
+                <h3>Tools & Technologies</h3>
+                <p>Git, VSCode,</p>
+            </div>
+    
+            <!-- Skill Box 4 -->
+            <div class="skill-box">
+                <h3>Soft Skills</h3>
+                <p>Communication, Teamwork, Problem-Solving</p>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <h2>Experience</h2>
+        <div class="experience-container">
+            <!-- HTML Progress Bar -->
+            <div class="experience-bar">
+                <h3>HTML</h3>
+                <div class="progress">
+                    <div class="progress-fill html-fill">30%</div>
+                </div>
+            </div>
+    
+            <!-- CSS Progress Bar -->
+            <div class="experience-bar">
+                <h3>CSS</h3>
+                <div class="progress">
+                    <div class="progress-fill css-fill">40%</div>
+                </div>
+            </div>
+    
+            <!-- JavaScript Progress Bar -->
+            <div class="experience-bar">
+                <h3>JavaScript</h3>
+                <div class="progress">
+                    <div class="progress-fill js-fill">30%</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Blogs Section -->
+      <section id="blogs">
+        <h2>Blogs</h2>
+        <div class="blog-container">
+            <div class="blog-box">
+                <h3>Blog Post 1</h3>
+                <p>Endless Career Opportunities
+                    The demand for tech professionals is at an all-time high. From software development to cybersecurity, data analysis to network administration, the career possibilities are endless. Companies across all industries—be it healthcare, finance, entertainment, or education—are on the lookout for tech-savvy individuals who can innovate and solve complex problems.</p>
+                    
+            </div>
+            <div class="blog-box">
+                <h3>Blog Post 2</h3>
+                <p>Problem Solving and Creativity
+                    I.T. isn’t just about coding or managing networks. It’s about solving real-world problems creatively. Whether it’s developing an app to help people stay organized or designing secure systems to protect sensitive data, I.T. professionals use creativity and logic to make a positive impact.</p>
+            </div>
+        </div>
+       </section>
+    
+
+    <!-- Testimonials Section -->
+    <section id="testimonials">
+        <h2>Testimonials</h2>
+        <div class="carousel">
+            <div class="carousel-item active">
+                <p>"Dina is a hardworking and dedicated student with great potential!"</p>
+                <h4>- cherry</h4>
+            </div>
+            <div class="carousel-item">
+                <p>"Her analytical skills and attention to detail are exceptional."</p>
+                <h4>- kent</h4>
+            </div>
+            <div class="carousel-item">
+                <p>"Always ready to learn and adapt, she is truly inspiring."</p>
+                <h4>- a friend</h4>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <!-- Project Image 1 -->
+            <div class="project-box">
+                <img src="./imgs/tec.jpg" alt="Project 1">
+            </div>
+    
+            <!-- Project Image 2 -->
+            <div class="project-box">
+                <img src="./imgs/tecc.jpg" alt="Project 2">
+            </div>
+    
+            <!-- Project Image 3 -->
+            <div class="project-box">
+                <img src="./imgs/download.png" alt="Project 3">
+            </div>
+    
+            <!-- Project Image 4 -->
+            <div class="project-box">
+                <img src="./imgs/download.png" alt="Project 4">
+            </div>
+        </div>
+    </section>
+    
+    
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-container">
+            <!-- Contact Information -->
+            <div class="contact-info">
+                <h3>Get in Touch</h3>
+                <p>Email: <a href="mailto:your.email@example.com">respiciodhina@Gmail.com</a></p>
+                <p>Phone: <a href="tel:+1234567890">09374839303</a></p>
+                <p>Follow me on social media:</p>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                </ul>
+            </div>
+    
+            <!-- Contact Form -->
+            <div class="contact-form">
+                <h3>Send a Message</h3>
+                <form>
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" required></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    
+
+    <footer>
+        <p>&copy; 2025 Dina Respicio | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
